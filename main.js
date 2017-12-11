@@ -1,4 +1,4 @@
- // Monday, December 4th 2017 - 9:15am
+ // Monday, December 4th 2017 
 
 //  let employees = [
 //   {name: 'Bob', department: 'sales', title: 'sales manager'},
@@ -13,7 +13,7 @@
 
 ////////////////////////////////
 
-// Tuesday, December 5th 2017 - 9:15am
+// Tuesday, December 5th 2017 
 
 /* Instructions: 
     Lightning exercise for Tues, 12/5:
@@ -47,7 +47,7 @@
 
 ///////////////////////////////
 
-// Wednesday, December 6th 2017 - 
+// Wednesday, December 6th 2017 
 
 /* Instructions: 
   Loop over every item in this array [45, “I”, true, null, “am”, 3.56, “a”, undefined, { catchphrase: “Oh hai, Mark”}, “JS”, “rockstar”]  and return a new array that contains only strings. and log out the result.
@@ -55,9 +55,16 @@
 
 
 
-let strArr = [45, 'I', true, null, 'am', 3.56, 'a', undefined, {catchphrase: 'Oh hai, Mark'}, 'JS', 'rockstar'].filter( (item) => {
-  return typeof(item) === "string";
-});
+// let strArr = [45, 'I', true, null, 'am', 3.56, 'a', undefined, {catchphrase: 'Oh hai, Mark'}, 'JS', 'rockstar'].filter( (item) => {
+//   return typeof(item) === "string";
+// });
 
-console.log('string array', strArr);
+// console.log('string array', strArr);
+
+
+//////////////////////////////
+
+// Monday, December 11th 2017 
+
+
 
