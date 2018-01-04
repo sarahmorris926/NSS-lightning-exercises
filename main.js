@@ -64,7 +64,23 @@
 
 //////////////////////////////
 
-// Monday, December 11th 2017 
+// Thursday January 4, 2018
 
+/* Instructions
+ Choose a loop method of your choice to get this result from this array:
+    let nums = [1, 2, 3, 4, "5", 6, "7"]
+    expected result: [3, 5, 7, 9, 11, 13]
+*/
+
+let nums = [1, 2, 3, 4, "5", 6, "7"]
+// original array given to us
+let result = [];
+// created new array for results to go in
+
+for (let i = 0; i < nums.length-1; i++) { //did the ' -1' so that we only end up with 6 results instead of 7
+  result.push(+nums[i] + +nums[i + 1]); // .push is adding things to the empty array, and the + makes everything in 'nums' a number instead of a string
+}
+
+console.log(result);
 
 
